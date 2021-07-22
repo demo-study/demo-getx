@@ -10,7 +10,11 @@ class GlobalConfigService extends GetxService {
 
   Future<GlobalConfigService> init() async {
     channel.value = "huawei";
-    isIOS.value = Platform.isIOS;
+    try {
+      isIOS.value = Platform.isIOS;
+    } catch(e) {
+      isIOS.value = false;
+    }
     return this;
   }
 }
