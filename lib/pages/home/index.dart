@@ -228,6 +228,14 @@ class HomeView extends StatelessWidget {
             onTap: () => Get.toNamed(AppRoutes.GetControllerDio),
           ),
           Divider(),
+
+          // Test
+          ListTile(
+            title: Text("GetXTemplate"),
+            subtitle: Text('Get.toNamed(AppRoutes.Temp)'),
+            onTap: () => Get.toNamed(AppRoutes.Temp),
+          ),
+          Divider(),
         ],
       ),
     );

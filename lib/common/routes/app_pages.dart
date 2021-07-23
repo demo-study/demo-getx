@@ -9,6 +9,7 @@ import 'package:getx_quick_start/pages/getConnect_stateMixin/bindings.dart';
 import 'package:getx_quick_start/pages/getConnect_stateMixin/view.dart';
 import 'package:getx_quick_start/pages/getController_dio/bindings.dart';
 import 'package:getx_quick_start/pages/getController_dio/view.dart';
+import 'package:getx_quick_start/pages/getx_template/view.dart';
 import 'package:getx_quick_start/pages/home/index.dart';
 import 'package:getx_quick_start/pages/lang/index.dart';
 import 'package:getx_quick_start/pages/list_detail/index.dart';
@@ -126,6 +127,9 @@ class AppPages {
         ),
       ],
     ),
+
+    // Test
+    GetPage(name: AppRoutes.Temp, page: () => GetxTemplatePage()),
   ];
 
   static final unknownRoute = GetPage(

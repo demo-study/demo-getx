@@ -1,5 +1,6 @@
 class GetxTemplateState {
+  late int count;
   GetxTemplateState() {
-    ///Initialize variables
+    count = 0;
   }
 }

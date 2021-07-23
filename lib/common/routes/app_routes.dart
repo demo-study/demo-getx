@@ -31,4 +31,6 @@ abstract class AppRoutes {
   static const Lang = '/lang';
 
   static const Theme = '/theme';
+
+  static const Temp = '/Temp';
 }
