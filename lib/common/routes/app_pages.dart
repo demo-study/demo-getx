@@ -32,13 +32,11 @@ class AppPages {
   static const INITIAL = AppRoutes.Home;
 
   static final List<GetPage> routes = [
-    // 白名单
     GetPage(
       name: AppRoutes.Login,
       page: () => LoginView(),
     ),
 
-    // 我的，需要认证
     GetPage(
       name: AppRoutes.My,
       page: () => MyView(),

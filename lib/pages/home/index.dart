@@ -138,6 +138,33 @@ class HomeView extends StatelessWidget {
           ),
           Divider(),
 
+          // GetxService
+          ListTile(
+            title: Text("Service"),
+            subtitle: Text('Get.toNamed(AppRoutes.Service)'),
+            onTap: () => Get.toNamed(AppRoutes.Service),
+          ),
+          Divider(),
+          // 多语言
+          ListTile(
+            title: Text("Lang"),
+            subtitle: Text('Get.toNamed(AppRoutes.Lang)'),
+            onTap: () => Get.toNamed(AppRoutes.Lang),
+          ),
+          Divider(),
+
+          // 样式
+          ListTile(
+            title: Text("Theme"),
+            subtitle: Text('Get.toNamed(AppRoutes.Theme)'),
+            onTap: () => Get.toNamed(AppRoutes.Theme),
+          ),
+          Divider(),
+
+
+          /// --------------------------------------------------------
+
+
           // state 状态
           ListTile(
             title: Text("State-Obx"),
@@ -181,14 +208,6 @@ class HomeView extends StatelessWidget {
           ),
           Divider(),
 
-          // GetxService
-          ListTile(
-            title: Text("Service"),
-            subtitle: Text('Get.toNamed(AppRoutes.Service)'),
-            onTap: () => Get.toNamed(AppRoutes.Service),
-          ),
-          Divider(),
-
           // GetConnect
           ListTile(
             title: Text("GetConnect"),
@@ -207,22 +226,6 @@ class HomeView extends StatelessWidget {
             title: Text("GetControllerDio"),
             subtitle: Text('Get.toNamed(AppRoutes.GetControllerDio)'),
             onTap: () => Get.toNamed(AppRoutes.GetControllerDio),
-          ),
-          Divider(),
-
-          // 多语言
-          ListTile(
-            title: Text("Lang"),
-            subtitle: Text('Get.toNamed(AppRoutes.Lang)'),
-            onTap: () => Get.toNamed(AppRoutes.Lang),
-          ),
-          Divider(),
-
-          // 样式
-          ListTile(
-            title: Text("Theme"),
-            subtitle: Text('Get.toNamed(AppRoutes.Theme)'),
-            onTap: () => Get.toNamed(AppRoutes.Theme),
           ),
           Divider(),
         ],

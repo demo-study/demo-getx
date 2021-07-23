@@ -1,3 +1,5 @@
+/// GetXController内的钩子函数
+
 import 'package:get/get.dart';
 
 class CountController extends GetxController {
